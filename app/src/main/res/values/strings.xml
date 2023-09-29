@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dahiroc_Prelim</string>
+    <string name="lemon_select">\@string/lemon_select</string>
+    <string name="lemon_squeeze">\@string/lemon_squeeze\n</string>
+    <string name="lemon_drink">\@string/lemon_drink\n</string>
+    <string name="lemon_empty_glass">\@string/lemon_empty_glass\n</string>
+</resources>

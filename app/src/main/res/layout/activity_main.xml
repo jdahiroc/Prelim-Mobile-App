@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/BACKbtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="LOGOUT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/btnBirthdayCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTintMode="screen"
+        android:text="Birthday Card" />
+
+    <Button
+        android:id="@+id/btnDiceRoll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBirthdayCard"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTintMode="screen"
+        android:text="Dice Roll" />
+
+    <Button
+        android:id="@+id/btnTaskBud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDiceRoll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTintMode="screen"
+        android:text="Task Buddy" />
+
+    <Button
+        android:id="@+id/btnLemonade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTaskBud"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTintMode="screen"
+        android:text="Lemonade" />
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/uiclogo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+
+</RelativeLayout>

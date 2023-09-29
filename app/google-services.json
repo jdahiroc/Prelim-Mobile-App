@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1002826622317",
+    "project_id": "prelimjustin-676c4",
+    "storage_bucket": "prelimjustin-676c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002826622317:android:3f23cffafdfd169bd6a664",
+        "android_client_info": {
+          "package_name": "ph.uic.edu.dahiroc_prelim"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxmFPLr6oAcL7C0vGMI2auCnTb5cshZrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
